@@ -19,7 +19,7 @@ namespace gitexample
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("У Вас багет");
+            MessageBox.Show("У Вас багет", "", MessageBoxButtons.OK, MessageBoxIcon.Hand);
         }
     }
 }
